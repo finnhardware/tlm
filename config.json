@@ -1,0 +1,21 @@
+{
+  "model": {
+    "path": "models/smollm2-135m-instruct-q4_k_m.gguf",
+    "base": "SmolLM2-135M-Instruct",
+    "quantization": "Q4_K_M",
+    "source": "https://huggingface.co/bartowski/SmolLM2-135M-Instruct-GGUF"
+  },
+  "inference": {
+    "context_size": 256,
+    "max_tokens": 48,
+    "temperature": 0.5,
+    "threads": 4
+  },
+  "display": {
+    "width": 240,
+    "height": 240,
+    "font_size": 16,
+    "bg_color": [0, 0, 0],
+    "fg_color": [0, 255, 0]
+  }
+}
